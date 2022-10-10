@@ -1,10 +1,10 @@
 # Guessing Game
 Simple number guessing game created with vanilla Javascript
 ## Table of Contents
-* [Introduction] (#introduction)
-* [Technologies] (#technologies)
-* [Setup] (#setup)
-* [Status] (#status)
+* [Introduction](#introduction)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Status](#status)
 ### Introduction
 Guessing Game is a project I continously build upon to practice the new technology that I learn. I had knowledge of HTML, CSS, and Javascript but never used them all together to create a single application until now. As I continue to learn web development I will implement my lessons in this project.
 ### Technologies
