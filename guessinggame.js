@@ -31,22 +31,22 @@ function do_guess() {
     let message = document.getElementById("gMessage");
 
     if (isNaN(guess)) {
-        message.innerHTML = "Error: That is not a number!";
+        message.innerHTML = "Error: That is not a number! Your last guess was " + guess + ".";
     } else if (guess < 1 || guess > validMaxNum) {
-        message.innerHTML = "Error: That number is not in range, try again.";
+        message.innerHTML = "Error: That number is not in range, try again. Your last guess was " + guess + ".";
     } else if (history.includes(" " + guess)) {
-        message.innerHTML = "That number was already guessed. Please try again.";
+        message.innerHTML = "That number was already guessed. Please try again. Your last guess was " + guess + ".";
     } else if (guess == num) {
         history.push(" " + guess);
         message.innerHTML = "You got it! It took you " + history.length + " tries and your guesses were" + history.toString();
     }
     else if (guess > num) {
-        message.innerHTML = "No, try a lower number.";
+        message.innerHTML = "No, try a lower number. Your last guess was " + guess + ".";
         history.push(" " + guess);
         console.log(history);
     }
     else {
-        message.innerHTML = "No, try a higher number.";
+        message.innerHTML = "No, try a higher number. Your last guess was " + guess + ".";
         history.push(" " + guess);
         console.log(history);
     }
