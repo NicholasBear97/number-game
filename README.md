@@ -14,7 +14,7 @@ This web application is live [here](https://nicholasbear97.github.io/number-game
 ### Status
 Guessing Game is currently under development.
 Changes to Currently Commit:
-1. Create better user experience by adding more logic to filter different answer pathways. Fix grammer for single guesses vs multiple guesses.
+1. Create better user experience by adding more logic to filter different answer pathways. Fix grammar for single guesses vs multiple guesses.
 2. Add more design to game for less blandness.
 3. Create better landing page, prompt user for higher number AFTER page has loaded and not using the prompt() function.
 
